@@ -7,9 +7,19 @@ Built mostly for educational purposes, and as a ground to build more complex int
     
 - Binary operators (+, -, *, /, ^)
 - Bit manipulation (<<, >>, &, |, ~)
+- Parentheses "(", ")"
 - Standard functions (sin, abs, etc.)
 - Type-checking against integers and floating-point expressions
 - Follows C operator precedence 
+
+## Example usage
+    
+    > 1 - 2
+    -1
+    > (1+2)*4 + 10
+    22
+    > -1 * (-1 + 5)
+    -4
 
 ## Grammar
 
